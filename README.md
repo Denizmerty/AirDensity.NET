@@ -10,8 +10,8 @@ AirDensity.NET provides a user-friendly interface to calculate key atmospheric p
 
 *   **Extended ISA Model:** Implements calculations based on the multi-layer Extended ISA model.
 *   **Customizable Inputs:** Enter altitude, sea-level temperature, and sea-level pressure.
-*   **Unit Selection:** Supports Meters/Feet for altitude, °C/°F for temperature, and hPa/inHg for pressure.
-*   **Derived Properties:** Calculates temperature, pressure, density(kg/m³), pressure/density percentages relative to sea level, specific humidity(g/kg), and vapor pressure(hPa) at the specified altitude.
+*   **Unit Selection:** Supports Meters/Feet for altitude, Â°C/Â°F for temperature, and hPa/inHg for pressure.
+*   **Derived Properties:** Calculates temperature, pressure, density(kg/mÂ³), pressure/density percentages relative to sea level, specific humidity(g/kg), and vapor pressure(hPa) at the specified altitude.
 *   **Configurable Constants:** Adjust gravitational acceleration(g) and the specific gas constant for air(R) via settings.
 *   **Results Export:** Export calculated results to a text or CSV file.
 *   **Input Validation:** Basic checks for plausible input ranges.
@@ -64,4 +64,4 @@ For questions, suggestions, or issues, please open an issue on GitHub or contact
 
 ## License
 
-This project is licensed under the terms specified in theGNU General Public License v3.0
+This project is licensed under the terms specified in the GNU General Public License v3.0
