@@ -1,0 +1,21 @@
+<ContentDialog
+    x:Class="AirDensity.NET.SettingsDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AirDensity.NET"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Settings"
+    PrimaryButtonText="OK"
+    CloseButtonText="Cancel"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    DefaultButton="Primary">
+
+    <StackPanel Spacing="15">
+        <TextBlock Style="{ThemeResource BodyStrongTextBlockStyle}" Text="Calculation Constants"/>
+        <TextBox x:Name="GravityTextBox" Header="Gravitational Acceleration (g) [m/s²]" PlaceholderText="e.g., 9.80665"/>
+        <TextBox x:Name="GasConstantTextBox" Header="Specific Gas Constant (R) [J/kg·K]" PlaceholderText="e.g., 287.05"/>
+        <TextBlock x:Name="ValidationTextBlock" Foreground="Red" Visibility="Collapsed"/>
+    </StackPanel>
+</ContentDialog>

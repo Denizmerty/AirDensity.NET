@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AirDensity.NET (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AirDensity.NET (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
